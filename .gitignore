@@ -1,1 +1,23 @@
+# Ignore le dossier virtualenv
 venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore les fichiers Jupyter
+.ipynb_checkpoints/
+
+# Ignore les fichiers de logs et sorties
+*.log
+*.out
+*.csv
+
+# Ignore les fichiers système macOS
+.DS_Store
+
+# Ignore les fichiers générés par Python
+*.egg-info/
+dist/
+build/
+
